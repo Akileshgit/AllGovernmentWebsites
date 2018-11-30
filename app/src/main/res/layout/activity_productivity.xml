@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Please click on the links below to redirect to the website: - "
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:id="@+id/isro"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignStart="@+id/digital_india"
+            android:layout_marginTop="808dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/isro" />
+
+        <ImageView
+            android:id="@+id/mini_rural_dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/mini_rural_dev" />
+
+        <ImageView
+            android:id="@+id/mini_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/digital_india"
+            android:layout_alignStart="@+id/mini_rural_dev"
+            android:layout_marginBottom="-299dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/mini_text" />
+
+        <ImageView
+            android:id="@+id/digital_india"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/digital_india" />
+
+        <ImageView
+
+            android:id="@+id/make_in_india"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/digital_india"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/make_in_india"/>
+
+        <ImageView
+
+            android:id="@+id/nation_bio_tech"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1300dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/nation_bio_tech" />
+
+        <ImageView
+            android:id="@+id/icar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/nation_bio_tech"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/icar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Indian Council For Agriculture Research Library"
+            android:layout_below="@+id/icar"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/brand_eq_found"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/brand_eq_found"/>
+
+        <ImageView
+            android:id="@+id/dep_of_sci"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/brand_eq_found"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/dep_scien_tech"/>
+
+        <ImageView
+            android:id="@+id/know_india"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dep_of_sci"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/know_india"/>
+
+
+    </RelativeLayout>
+</ScrollView>

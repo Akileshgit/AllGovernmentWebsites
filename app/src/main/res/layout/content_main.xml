@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/identification"
+            android:layout_width="154dp"
+            android:layout_height="139dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/logo_1" />
+
+        <ImageView
+            android:id="@+id/productivity"
+            android:layout_width="197dp"
+            android:layout_height="142dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/identification"
+            android:src="@drawable/logo_2" />
+
+        <ImageView
+            android:id="@+id/education"
+            android:layout_width="169dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/logo_3" />
+
+        <ImageView
+            android:id="@+id/agriculture"
+            android:layout_width="187dp"
+            android:layout_height="133dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="150dp"
+            android:layout_toRightOf="@+id/education"
+            android:src="@drawable/logo_4" />
+
+        <ImageView
+            android:id="@+id/energy"
+            android:layout_width="154dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/logo_5" />
+
+        <ImageView
+            android:id="@+id/social"
+            android:layout_width="193dp"
+            android:layout_height="131dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="298dp"
+            android:layout_toRightOf="@+id/education"
+            android:src="@drawable/logo_6" />
+
+        <ImageView
+            android:id="@+id/ministry"
+            android:layout_width="164dp"
+            android:layout_height="133dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="450dp"
+            android:src="@drawable/logo_7" />
+
+        <ImageView
+            android:id="@+id/communication"
+            android:layout_width="172dp"
+            android:layout_height="129dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="457dp"
+            android:layout_toRightOf="@+id/education"
+            android:src="@drawable/logo_8" />
+
+        <ImageView
+            android:id="@+id/buisness"
+            android:layout_width="162dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="610dp"
+            android:src="@drawable/logo_9" />
+
+        <ImageView
+            android:id="@+id/knowledge"
+            android:layout_width="181dp"
+            android:layout_height="136dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="610dp"
+            android:layout_toRightOf="@+id/education"
+            android:src="@drawable/logo_10" />
+
+        <ImageView
+            android:id="@+id/finance"
+            android:layout_width="176dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="750dp"
+            android:src="@drawable/logo_11" />
+
+
+        <ImageView
+            android:id="@+id/travel"
+            android:layout_width="191dp"
+            android:layout_height="141dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="745dp"
+            android:layout_toRightOf="@+id/education"
+            android:src="@drawable/logo_12" />
+
+        <ImageView
+            android:id="@+id/lifestyle"
+            android:layout_width="163dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="880dp"
+            android:src="@drawable/logo_13" />
+
+        <ImageView
+            android:id="@+id/news"
+            android:layout_width="173dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="1050dp"
+            android:layout_toRightOf="@+id/education"
+            android:src="@drawable/logo_14" />
+
+
+    </RelativeLayout>
+</ScrollView>
+

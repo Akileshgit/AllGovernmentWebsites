@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Please click on the links below to redirect to the website: - "
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:id="@+id/department_of_telecom"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/emblem1" />
+        <TextView
+            android:id="@+id/d_o_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/department_of_telecom"
+            android:layout_centerInParent="true"
+            android:text="Department Of Telecommunication          "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/national_center_of_geeo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/d_o_t"
+
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:layout_marginTop="320dp"
+            android:src="@drawable/ncog" />
+        <TextView
+            android:id="@+id/n_c_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/national_center_of_geeo"
+            android:layout_centerInParent="true"
+            android:text="National Center Of Geo-Informatics            "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/ras"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/n_c_g"
+            android:layout_alignStart="@+id/indian_navy"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginRight="97dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/ras" />
+        <TextView
+            android:id="@+id/r_a_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ras"
+            android:layout_centerInParent="true"
+            android:text="Rapid Assacement System"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/pmis"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/r_a_s"
+            android:layout_alignStart="@+id/indian_navy"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/pmis" />
+        <TextView
+            android:id="@+id/p_m_i_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pmis"
+            android:layout_centerInParent="true"
+            android:text="Programatic Management Informatic System  "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

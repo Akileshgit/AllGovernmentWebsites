@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Please click on the links below to redirect to the website: - "
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:id="@+id/umang"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/umang" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/umang"
+            android:layout_centerInParent="true"
+            android:text="UMANG"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/bhim_upo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/bhim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bhim_upo"
+            android:layout_centerInParent="true"
+            android:text="BHIM UPI"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/indian_post"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/bhim_upo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="82dp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/indian_post" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indian_post"
+            android:layout_centerInParent="true"
+            android:text="eBanking india post"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/income_tax"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/indian_post"
+            android:layout_alignStart="@+id/umang"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/income_tax" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/income_tax"
+            android:layout_centerInParent="true"
+            android:text="Income Tax"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

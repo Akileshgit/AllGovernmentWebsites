@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Please click on the links below to redirect to the website: - "
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"/>
+
+        <ImageView
+            android:id="@+id/indian_navy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/environment" />
+
+        <TextView
+            android:id="@+id/enf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indian_navy"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginRight="104dp"
+            android:fontFamily="sans-serif"
+            android:text="Environment And Forest"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/swayam"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:layout_marginTop="320dp"
+            android:src="@drawable/emblem1" />
+        <TextView
+            android:id="@+id/w_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/swayam"
+            android:layout_centerInParent="true"
+            android:text="Web Guidelines"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/studyinindia"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/w_g"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/emblem1" />
+        <TextView
+            android:id="@+id/c_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/studyinindia"
+            android:layout_centerInParent="true"
+            android:text="Cabinet Secretary"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/diksha"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/c_s"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/swachh" />
+        <TextView
+            android:id="@+id/s_b_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/diksha"
+            android:layout_centerInParent="true"
+            android:text="Swachh Bharat Mission "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/pmo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/s_b_m"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/pmo" />
+        <TextView
+            android:id="@+id/p_m_o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pmo"
+            android:layout_centerInParent="true"
+            android:text="Prime Minister Of India   "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/mygov"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/p_m_o"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/mygov" />
+        <TextView
+            android:id="@+id/m_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mygov"
+            android:layout_centerInParent="true"
+            android:text="My Government      "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/vice_precedent_of_india"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/m_g"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/emblem1" />
+        <TextView
+            android:id="@+id/v_p_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vice_precedent_of_india"
+            android:layout_centerInParent="true"
+            android:text="Vice Presedent Of India       "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/rashtrapati_sachivalaya"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/v_p_i"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img_shape"
+            android:padding="10dp"
+            android:src="@drawable/emblem1" />
+        <TextView
+            android:id="@+id/r_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rashtrapati_sachivalaya"
+            android:layout_centerInParent="true"
+            android:text="rashtrapati sachivalaya     "
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
